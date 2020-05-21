@@ -1,0 +1,13 @@
+.addForm{
+    padding: 10px;
+    background-color: beige;
+    margin-top: 60px;
+    border-top: 1px solid #cccccc;
+
+}
+
+form{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}

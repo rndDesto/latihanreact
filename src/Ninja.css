@@ -1,0 +1,6 @@
+.ninjas{
+    padding: 10px;
+    border-bottom: 1px solid #dddddd;
+    display: flex;
+    justify-content: space-between;
+}

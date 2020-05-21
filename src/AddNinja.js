@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import './AddNinja.css'
 class AddNinja extends Component {
 
     state = {
@@ -33,7 +33,7 @@ class AddNinja extends Component {
 
     render() {
         return (
-            <div>
+            <div className="addForm">
                 <form onSubmit={this.handelOnSubmit}>
                     <div>
                         <label htmlFor="fname">Nama:</label>

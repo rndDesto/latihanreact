@@ -1,4 +1,5 @@
 import React from 'react'
+import './Ninja.css'
 
 const Ninja = ({ ninjaList,hapusNinja }) => {
     const ninja = ninjaList.map(data => {
