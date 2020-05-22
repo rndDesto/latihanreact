@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Ninja from './Ninja'
 import AddNinja from './AddNinja'
+import Rainbow from './component/hoc/Rainbow'
 
 class App extends Component {
   state = {
@@ -41,6 +42,8 @@ class App extends Component {
         <Ninja ninjaList={ninjas} hapusNinja={this.handleHapusNinja} />
 
         <AddNinja tambahNinja={this.handleTambahNinja}/>
+
+        <Rainbow />
       </div>
     )
   }
