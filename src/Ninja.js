@@ -26,9 +26,9 @@ const Ninja = ({ ninjaList,hapusNinja }) => {
 
     })
     return (
-        <div>
+        <React.Fragment>
             {ninja}
-        </div>
+        </React.Fragment>
     )
 }
 
